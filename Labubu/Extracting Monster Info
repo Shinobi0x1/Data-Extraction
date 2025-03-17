@@ -1,0 +1,12 @@
+Pagination with Selenium
+
+In this project, I explored how to navigate through multiple pages using Selenium. I implemented pagination by using a for loop to iterate through a specified number of pages:
+
+for page in range(0, 9):
+
+This allowed the script to click through each page sequentially. Additionally, I incorporated a delay of 11 seconds to ensure that each page fully rendered before proceeding to the next one.
+
+Key takeaways from this project:
+✅ Using loops to automate multi-page navigation
+✅ Implementing wait times to handle page rendering
+✅ Gaining a deeper understanding of Selenium for dynamic web scraping
